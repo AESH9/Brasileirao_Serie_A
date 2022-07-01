@@ -2,12 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
     font-family: 'Arial', Helvetica, sans-serif;
-
 }
 
 .titulo {
@@ -49,7 +47,7 @@ table {
 
 
 .cabecalhoCampeonato tr th {
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 13px;
 }
 
@@ -141,6 +139,7 @@ table {
     font-size: 9px;
     padding-bottom: 2px;
     padding-right: 11px;
+    margin-bottom: 2px;
 }
 
 .libertadores {
