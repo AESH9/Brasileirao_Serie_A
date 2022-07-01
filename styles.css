@@ -140,7 +140,6 @@ table {
     border-bottom: 0.05rem solid #999999;
     font-size: 9px;
     padding-bottom: 2px;
-    margin-bottom: 2px;
     padding-right: 11px;
 }
 
@@ -202,11 +201,11 @@ table {
 .direitos {
     padding: 10px;
     font-size: 10px;
-    background-image: linear-gradient(100deg, #02bd4d , #06AA48, #06AA48);
+    background-image: linear-gradient(100deg, #028d3a , #06AA48, #06AA48);
 }
 
 .direitos h2 {
-    color: #dddddd;
+    color: #ffffff;
     font-size: 13px;
     font-weight: normal;
 }
