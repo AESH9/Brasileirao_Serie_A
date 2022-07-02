@@ -8,23 +8,25 @@ body {
     font-family: 'Arial', Helvetica, sans-serif;
 }
 
-.titulo {
+#tituloBack {
+    width: 100%;    
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: linear-gradient(100deg, #06AA48 , #02bd4d, #06AA48);
 }
+.titulo{
+    width: 330px;
+    margin: auto;
+}
 
-.titulo h1 {
-    display: flex;
-    font-size: 30px;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-    transition: transform 500ms ease;
+ a {    
+    font-size: 30px;    
+    text-decoration: none;
+    color: #f6f0f0;
 }
 
 /* BRASILEIRAO */
-.titulo h1:hover {
+.titulo a:hover {
     color: #A4E0BC;
     cursor: pointer;
 }
@@ -43,6 +45,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -65,7 +68,6 @@ table {
 .cabecalhoCampeonato td:nth-child(2) {
     font-weight: bold;
     color: #666666;
-    font-size: 14px;
 }
 
 .esquerda {
