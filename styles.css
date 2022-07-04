@@ -57,6 +57,7 @@ table {
 .cabecalhoCampeonato td {
     padding: 10px 10px;
     font-weight: 10px;
+    width:50px;
 }
 
 #fontNegrito {
@@ -124,24 +125,29 @@ table {
 }
 
 #rodape {
-    padding: 5px;
-    padding-right: 27px;
     margin: auto;
-    width: 469px;
+    width:622px;
     color: #8F8F8F;
     border-top: 0.05rem solid #999999;
     font-size: 10.5px;
+    padding: 5px;
+    display: flex;
+    padding-left: 16.8px;
 }
 
 #rodape1 {
     margin: auto;
-    width: 469px;
+    width:622px;
     color: #8F8F8F;
     border-bottom: 0.05rem solid #999999;
     font-size: 9px;
     padding-bottom: 2px;
     padding-right: 11px;
     margin-bottom: 2px;
+    padding-top: 2px;
+    
+    display: flex;
+    padding-left: 16.8px;
 }
 
 .libertadores {
@@ -150,11 +156,10 @@ table {
 }
 
 .quadradoAzulMarinho {
-    justify-content: center;
     background: #003366;
     border-radius: 2px;
-    width: 11px;
-    height: 10px;
+    width: 12px;
+    height: 11px;
 }
 
 .preLibertadores {
@@ -165,8 +170,8 @@ table {
 .quadradoazulCeleste {
     background-color: #1398BE;
     border-radius: 2px;
-    width: 11px;
-    height: 10px;
+    width: 12px;
+    height: 11px;
 }
 
 .sulAmericana {
@@ -177,8 +182,8 @@ table {
 .quadradoLaranja {
     background-color: #DE9800;
     border-radius: 2px;
-    width: 11px;
-    height: 10px;
+    width: 12px;
+    height: 11px;
 }
 
 .rebaixados {
@@ -189,8 +194,8 @@ table {
 .quadradoVermelho {
     background-color: #C91B04;
     border-radius: 2px;
-    width: 11px;
-    height: 10px;
+    width: 12px;
+    height: 11px;
 }
 
 .legendaNegrito {
@@ -203,6 +208,11 @@ table {
     padding: 10px;
     font-size: 10px;
     background-image: linear-gradient(100deg, #028d3a , #06AA48, #06AA48);
+}
+
+.direitos h2:hover {
+    color: #A4E0BC;
+    cursor: pointer;
 }
 
 .direitos h2 {
